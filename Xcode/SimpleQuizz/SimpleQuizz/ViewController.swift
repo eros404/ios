@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelQuestion: UILabel!
     @IBOutlet weak var labelAnswer: UILabel!
     @IBAction func showQuestion(_ sender: Any) {
-        currentQuestionIndex = currentQuestionIndex > questions.count - 1 ? 0 : currentQuestionIndex + 1
+        currentQuestionIndex = currentQuestionIndex >= questions.count - 1 ? 0 : currentQuestionIndex + 1
         self.labelQuestion.text = questions[currentQuestionIndex]
         self.labelAnswer.text = "???"
     }
