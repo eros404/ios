@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACC4E9312848A9A000600D55 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4E9302848A9A000600D55 /* Person.swift */; };
+		ACC4E9332848B5A400600D55 /* PersonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4E9322848B5A400600D55 /* PersonDetailVC.swift */; };
 		ACD05A7128477B01004EEA2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD05A7028477B01004EEA2D /* AppDelegate.swift */; };
 		ACD05A7328477B01004EEA2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD05A7228477B01004EEA2D /* SceneDelegate.swift */; };
 		ACD05A7528477B01004EEA2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD05A7428477B01004EEA2D /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACC4E9302848A9A000600D55 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		ACC4E9322848B5A400600D55 /* PersonDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailVC.swift; sourceTree = "<group>"; };
 		ACD05A6D28477B01004EEA2D /* PersonMgr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonMgr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD05A7028477B01004EEA2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACD05A7228477B01004EEA2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 		ACD05A6F28477B01004EEA2D /* PersonMgr */ = {
 			isa = PBXGroup;
 			children = (
+				ACC4E9302848A9A000600D55 /* Person.swift */,
 				ACD05A7028477B01004EEA2D /* AppDelegate.swift */,
 				ACD05A7228477B01004EEA2D /* SceneDelegate.swift */,
 				ACD05A7428477B01004EEA2D /* ViewController.swift */,
@@ -66,6 +71,7 @@
 				ACD05A7928477B03004EEA2D /* Assets.xcassets */,
 				ACD05A7B28477B03004EEA2D /* LaunchScreen.storyboard */,
 				ACD05A7E28477B03004EEA2D /* Info.plist */,
+				ACC4E9322848B5A400600D55 /* PersonDetailVC.swift */,
 			);
 			path = PersonMgr;
 			sourceTree = "<group>";
@@ -141,10 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC4E9312848A9A000600D55 /* Person.swift in Sources */,
 				ACD05A8528477C5A004EEA2D /* PersonTVC.swift in Sources */,
 				ACD05A7528477B01004EEA2D /* ViewController.swift in Sources */,
 				ACD05A7128477B01004EEA2D /* AppDelegate.swift in Sources */,
 				ACD05A7328477B01004EEA2D /* SceneDelegate.swift in Sources */,
+				ACC4E9332848B5A400600D55 /* PersonDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
