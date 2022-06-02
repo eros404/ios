@@ -50,6 +50,10 @@ class PersonTVC: UITableViewController {
             persons.append(Person())
         }
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.tableView.reloadData()
+    }
 
     // MARK: - Table view data source
 

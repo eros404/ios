@@ -44,6 +44,16 @@ class PersonDetailVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         }
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        if let person = person {
+            person.lastName = lastNameInput.text ?? ""
+            person.firstName = firstNameInput.text ?? ""
+            person.nationality = nationalityInput.text ?? ""
+            person.birthYear = Int(birthYearData[birthYearPicker.selectedRow(inComponent: 0)]) ?? Calendar.current.component(.year, from: Date())
+            person.gender = genderData[genderPicker.selectedRow(inComponent: 0)]
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
