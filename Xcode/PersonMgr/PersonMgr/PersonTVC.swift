@@ -11,6 +11,33 @@ class PersonTVC: UITableViewController {
     
     var persons: [Person] = []
 
+    @IBAction func didTapSort(_ sender: Any) {
+        //create the ActionSheet with a title
+        let newsActionSheet = UIAlertController(title: "Sort", message: nil, preferredStyle: .actionSheet)
+        //create the sort button and the closure that is going to get executed when the user clicks
+        let byFirstName = UIAlertAction(title: "by firstname", style: .default) { ( action: UIAlertAction) in
+            self.persons.sort { $1.firstName > $0.firstName }
+            self.tableView.reloadData()
+        }
+        let byLastName = UIAlertAction(title: "by lastname", style: .default) { ( action: UIAlertAction) in
+            self.persons.sort { $1.lastName > $0.lastName }
+            self.tableView.reloadData()
+        }
+        let byBirthYear = UIAlertAction(title: "by birth year", style: .default) { ( action: UIAlertAction) in
+            self.persons.sort { $1.birthYear > $0.birthYear }
+            self.tableView.reloadData()
+        }
+        //create a cancel button
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+        //Add the 2 actions
+        newsActionSheet.addAction(byFirstName)
+        newsActionSheet.addAction(byLastName)
+        newsActionSheet.addAction(byBirthYear)
+        newsActionSheet.addAction(cancelAction)
+        //Display the actionSheet in the current view
+        self.present(newsActionSheet, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
