@@ -14,8 +14,8 @@
             filePath = "RickMorty/CharacterTVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -23,16 +23,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0FA153DD-A35A-4C99-A31C-37BFE84E1226"
+            uuid = "1DE5B3D6-C766-4F57-A365-30FDEA9246C5"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RickMorty/CharacterTVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "downloadAndParse()"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "reloadAfterFetching(newRowsCount:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

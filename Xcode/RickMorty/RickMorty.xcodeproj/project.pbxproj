@@ -20,6 +20,7 @@
 		AC4783932930CCEF00EF5DB7 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4783912930CCEF00EF5DB7 /* CharacterCell.swift */; };
 		AC4783942930CCEF00EF5DB7 /* CharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC4783922930CCEF00EF5DB7 /* CharacterCell.xib */; };
 		AC4783962930D7C400EF5DB7 /* CharacterDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4783952930D7C400EF5DB7 /* CharacterDetailsVC.swift */; };
+		ACB23A442938E2D500C0A416 /* RMInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23A432938E2D500C0A416 /* RMInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		AC4783912930CCEF00EF5DB7 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		AC4783922930CCEF00EF5DB7 /* CharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCell.xib; sourceTree = "<group>"; };
 		AC4783952930D7C400EF5DB7 /* CharacterDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsVC.swift; sourceTree = "<group>"; };
+		ACB23A432938E2D500C0A416 /* RMInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				AC4783912930CCEF00EF5DB7 /* CharacterCell.swift */,
 				AC4783922930CCEF00EF5DB7 /* CharacterCell.xib */,
 				AC4783952930D7C400EF5DB7 /* CharacterDetailsVC.swift */,
+				ACB23A432938E2D500C0A416 /* RMInfo.swift */,
 			);
 			path = RickMorty;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				AC4783712930C66900EF5DB7 /* AppDelegate.swift in Sources */,
 				AC4783852930C74900EF5DB7 /* CharacterTVC.swift in Sources */,
 				AC4783732930C66900EF5DB7 /* SceneDelegate.swift in Sources */,
+				ACB23A442938E2D500C0A416 /* RMInfo.swift in Sources */,
 				AC4783932930CCEF00EF5DB7 /* CharacterCell.swift in Sources */,
 				AC47838A2930C91100EF5DB7 /* RMCharacterResponse.swift in Sources */,
 				AC47838E2930C9BF00EF5DB7 /* RMOrigin.swift in Sources */,
