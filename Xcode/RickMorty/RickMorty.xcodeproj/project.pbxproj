@@ -21,6 +21,9 @@
 		AC4783942930CCEF00EF5DB7 /* CharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC4783922930CCEF00EF5DB7 /* CharacterCell.xib */; };
 		AC4783962930D7C400EF5DB7 /* CharacterDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4783952930D7C400EF5DB7 /* CharacterDetailsVC.swift */; };
 		ACB23A442938E2D500C0A416 /* RMInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23A432938E2D500C0A416 /* RMInfo.swift */; };
+		ACE8AF98294221150030173D /* CharacterCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8AF97294221150030173D /* CharacterCVC.swift */; };
+		ACE8AF9B294221EA0030173D /* CharacterCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8AF99294221EA0030173D /* CharacterCollectionCell.swift */; };
+		ACE8AF9C294221EA0030173D /* CharacterCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE8AF9A294221EA0030173D /* CharacterCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		AC4783922930CCEF00EF5DB7 /* CharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCell.xib; sourceTree = "<group>"; };
 		AC4783952930D7C400EF5DB7 /* CharacterDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsVC.swift; sourceTree = "<group>"; };
 		ACB23A432938E2D500C0A416 /* RMInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMInfo.swift; sourceTree = "<group>"; };
+		ACE8AF97294221150030173D /* CharacterCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCVC.swift; sourceTree = "<group>"; };
+		ACE8AF99294221EA0030173D /* CharacterCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionCell.swift; sourceTree = "<group>"; };
+		ACE8AF9A294221EA0030173D /* CharacterCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 				AC4783922930CCEF00EF5DB7 /* CharacterCell.xib */,
 				AC4783952930D7C400EF5DB7 /* CharacterDetailsVC.swift */,
 				ACB23A432938E2D500C0A416 /* RMInfo.swift */,
+				ACE8AF97294221150030173D /* CharacterCVC.swift */,
+				ACE8AF99294221EA0030173D /* CharacterCollectionCell.swift */,
+				ACE8AF9A294221EA0030173D /* CharacterCollectionCell.xib */,
 			);
 			path = RickMorty;
 			sourceTree = "<group>";
@@ -155,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC47837D2930C66A00EF5DB7 /* LaunchScreen.storyboard in Resources */,
+				ACE8AF9C294221EA0030173D /* CharacterCollectionCell.xib in Resources */,
 				AC47837A2930C66A00EF5DB7 /* Assets.xcassets in Resources */,
 				AC4783782930C66900EF5DB7 /* Main.storyboard in Resources */,
 				AC4783942930CCEF00EF5DB7 /* CharacterCell.xib in Resources */,
@@ -168,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE8AF9B294221EA0030173D /* CharacterCollectionCell.swift in Sources */,
 				AC4783712930C66900EF5DB7 /* AppDelegate.swift in Sources */,
 				AC4783852930C74900EF5DB7 /* CharacterTVC.swift in Sources */,
 				AC4783732930C66900EF5DB7 /* SceneDelegate.swift in Sources */,
@@ -176,6 +187,7 @@
 				AC47838A2930C91100EF5DB7 /* RMCharacterResponse.swift in Sources */,
 				AC47838E2930C9BF00EF5DB7 /* RMOrigin.swift in Sources */,
 				AC47838C2930C93500EF5DB7 /* RMCharacter.swift in Sources */,
+				ACE8AF98294221150030173D /* CharacterCVC.swift in Sources */,
 				AC4783962930D7C400EF5DB7 /* CharacterDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

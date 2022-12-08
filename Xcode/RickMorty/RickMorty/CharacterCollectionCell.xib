@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CharacterCollectionCell" customModule="RickMorty" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CharacterCollectionCell" customModule="RickMorty" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="323" height="324"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="323" height="324"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JqC-CP-QLO">
+                        <rect key="frame" x="0.0" y="0.0" width="323" height="324"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Uo-0v-B6x">
+                        <rect key="frame" x="0.0" y="303" width="323" height="21"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="2Uo-0v-B6x" secondAttribute="bottom" id="GRJ-d7-0Vk"/>
+                <constraint firstAttribute="trailing" secondItem="JqC-CP-QLO" secondAttribute="trailing" id="SZX-ND-Jh1"/>
+                <constraint firstItem="JqC-CP-QLO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gov-JB-7jw"/>
+                <constraint firstAttribute="bottom" secondItem="JqC-CP-QLO" secondAttribute="bottom" id="lmO-ZZ-KP9"/>
+                <constraint firstAttribute="trailing" secondItem="2Uo-0v-B6x" secondAttribute="trailing" id="tXC-uH-P5f"/>
+                <constraint firstItem="JqC-CP-QLO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uCE-pI-cyl"/>
+                <constraint firstItem="2Uo-0v-B6x" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wAZ-lh-Sek"/>
+            </constraints>
+            <size key="customSize" width="323" height="324"/>
+            <connections>
+                <outlet property="CharacterImage" destination="JqC-CP-QLO" id="O7a-an-aDN"/>
+                <outlet property="CharacterName" destination="2Uo-0v-B6x" id="vEW-6s-4l3"/>
+            </connections>
+            <point key="canvasLocation" x="293.89312977099235" y="83.802816901408448"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
